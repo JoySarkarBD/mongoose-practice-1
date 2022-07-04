@@ -1,18 +1,18 @@
 {
-    "name": "NodeJs", 
+    "name": "Sherlock Holmes", 
     "isActive": true,
     "registered":"Sat Jul 02 2022 12:31:54 GMT+0600 (Bangladesh Standard Time)",
     "age": 10,
     "company":{
-        "title":"ToTo Company",
-        "email":"toto@company.com",
+        "title":"Consulting-detective LTD",
+        "email":"Consulting-detective@ltd.com",
         "phone": 8801234567890,
         "location": {
             "country": "England",
             "address": "221B Baker Street"
         }
     },
-        "tags":[ "ello"],
-        "isMarried": true,
+        "tags":[ "Hello"],
+        "isMarried": false,
         "gender": "Male"
 }
