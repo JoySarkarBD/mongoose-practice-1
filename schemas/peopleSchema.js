@@ -57,10 +57,7 @@ const peopleSchema = new mongoose.Schema({
             }
         }
     },
-    tags: [
-        Number,
-        String
-    ], 
+    tags: [String], 
     isMarried: {
         type: Boolean,
         default: false

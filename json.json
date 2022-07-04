@@ -6,15 +6,13 @@
     "company":{
         "title":"ToTo Company",
         "email":"toto@company.com",
-        "phone": 01234567890,
+        "phone": 8801234567890,
         "location": {
             "country": "England",
             "address": "221B Baker Street"
         }
     },
-        "tags":[
-            1231, "Hello"
-        ],
+        "tags":[ "ello"],
         "isMarried": true,
         "gender": "Male"
 }

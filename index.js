@@ -1,9 +1,10 @@
 // dependencies
 const express = require("express");
 const mongooseDB = require("./mongooes.js");
-const PeopleModel = require("./models/peopleModel")
+const PeopleModel = require("./models/peopleModel");
 //app initialization
 const app = express();
+app.use(express.json());
 
 app.get("/", (req, res) => {
     res.send("Hello there....!");
@@ -26,14 +27,14 @@ app.post("/people-cb", async (req, res) => {
         const people = new PeopleModel(req.body);
         const result = await people.save();
         res.send(result);
-       } catch (error) {
+    } catch (error) {
         res.status(500).send(error);
-       }
+    }
     
-})
+});
 
 // server running at 3000 port
 app.listen(3000, () => {
     mongooseDB();
     console.log("server running at 3000 port.....!");
-})
+});
